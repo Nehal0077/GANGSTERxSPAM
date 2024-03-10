@@ -98,3 +98,4 @@ async def _(e):
             pass
         if e.message.text or e.message.sticker:
             await e.reply(e.message)
+ 
