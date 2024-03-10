@@ -29,7 +29,7 @@
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https:https://dashboard.heroku.com/new?template= https://github.com/Nehal0077/GANGSTERxSPAM/edit/main//github.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ItZxSTaR/TheBotSpam)
   
 </details>
 
