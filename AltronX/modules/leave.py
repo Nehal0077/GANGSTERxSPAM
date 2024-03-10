@@ -32,3 +32,4 @@ async def leave(e):
                       await event.client(LeaveChannelRequest(int(e.chat_id)))
                   except Exception as e:
                       await event.edit(str(e))
+ 
