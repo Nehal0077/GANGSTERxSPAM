@@ -1,22 +1,22 @@
-### 🌷𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑🌷
+### ✨𝗚𝗔𝗡𝗚𝗦𝗧𝗘𝗥✨
 
 <!--
-**itzshukla/itzshukla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**𝗜𝗧𝗭 𝗚𝗔𝗔𝗡𝗚𝗦𝗧𝗘𝗥 𝗢𝗣** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
 <p align="center">
     <b>ᴠɪsɪᴛᴏʀs</b><br>
- -->    <img align="middle" src="https://profile-counter.glitch.me/itszshivam/count.svg" />
+ -->    <img align="middle" src="https://profile-counter.glitch.me/itzshivamcount.svg" />
 </p>
 
-<h1 align="center"><b>⚡️𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐒𝐏𝐀𝐌⚡️</b></h1>
+<h1 align="center"><b>💥𝗚𝗔𝗡𝗚𝗦𝗧𝗘𝗥 𝗢𝗣 𝗦𝗣𝗔𝗠💥</b></h1>
 
-<h4 align="center">⚡️𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒⚡️</h4>
+<h4 align="center">🔥𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒🔥</h4>
 
-<p align="center"><a href="https://t.me/shiva_ansh_op"><img src="https://graph.org/file/c6a2ed96648fd03377dc9.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/NEHAL_OPx"><img src="https://telegra.ph/file/10ad1b3d3a6789fa0c30f.jpg" width="400"></a></p>
 
 
-> ⭐️ Thanks to everyone for using THIS STRANGER SPAM BOT, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using THIS GANGSTER SPAM BOT, That is the greatest pleasure we have !
 
 <br>
 
@@ -29,7 +29,7 @@
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/itzshukla/STRANGER-SPAM-X)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https:https://dashboard.heroku.com/new?template= https://github.com/Nehal0077/GANGSTERxSPAM/edit/main//github.
   
 </details>
 
@@ -51,4 +51,4 @@
 
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
-<a href="https://t.me/mastiwithfriendsx"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/gangsterworlds"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegramm"></a>
