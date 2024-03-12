@@ -2,7 +2,7 @@ import asyncio
 import random
 from telethon import events
 from config import MK1, MK2, MK3, MK4, MK5 , MK6, MK7, MK8, MK9, MK10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from AltronX.data import RAID, REPLYRAID, ALTRON, MRAID, SRAID, CRAID, ALTRON
+from AltronX.data import RAID, REPLYRAID, ALTRON, MRAID, SRAID, CRAID, HIRAID, ALTRON
 
 que = {}
 
@@ -303,3 +303,55 @@ async def spam(e):
                 await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
+
+
+@MK1.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK2.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK3.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK4.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK5.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK6.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK7.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK8.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK9.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+@MK10.on(events.NewMessage(incoming=True, pattern=r"\%shiraid(?: |$)(.*)" % hl))
+async def _(e):
+    global que
+    usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐇𝐢𝐧𝐝𝐢𝐑𝐚𝐢𝐝\n  » {hl}hiraid <Username of User>\n  » {hl}hiraid <reply to a User>"
+    if e.sender_id in SUDO_USERS:
+        mkhir = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) > 11:
+            message = str(mkhir[0])
+            a = await e.client.get_entity(message)
+            user_id = int(a.id)
+            if int(user_id) in ALTRON:
+                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            elif int(user_id) == OWNER_ID:
+                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            elif int(user_id) in SUDO_USERS:
+                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            else:
+                que[user_id] = []
+                gey = que.get(user_id)
+                phucker = [user_id]
+                gey.append(phucker)
+                await e.reply("» ʜᴇʜᴇ..🙃 ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None)
+
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            user_id = int(b.id)
+            if int(user_id) in ALTRON:
+                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            elif int(user_id) == OWNER_ID:
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
+            elif int(user_id) in SUDO_USERS:
+                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            else:
+                que[user_id] = []
+                gey = que.get(user_id)
+                phucker = [user_id]
+                gey.append(phucker)
+                await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+        else:
+            await e.reply(usage)
